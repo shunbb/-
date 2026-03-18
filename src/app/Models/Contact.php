@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Contact extends Model
+{
+    protected $fillable = [
+        'first_name', 'last_name', 'gender', 'email', 
+        'tel_1', 'tel_2', 'tel_3', 'address', 'building', 
+        'category_id', 'detail'
+    ];
+}
